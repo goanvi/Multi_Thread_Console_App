@@ -1,0 +1,10 @@
+dto\DTO.class
+dto\FormOfEducationDTO.class
+utils\Serializator.class
+dto\CoordinatesDTO.class
+dto\UserDTO.class
+request\Request.class
+dto\PersonDTO.class
+response\Response.class
+dto\SemesterDTO.class
+dto\StudyGroupDTO.class

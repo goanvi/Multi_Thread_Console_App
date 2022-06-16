@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS Users
+(
+    id       SERIAL PRIMARY KEY UNIQUE,
+    login    VARCHAR(100) NOT NULL,
+    password VARCHAR(100) NOT NULL,
+    salt     VARCHAR(100) NOT NULL
+);
+
+
+
