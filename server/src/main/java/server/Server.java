@@ -42,11 +42,11 @@ public class Server {
         this.handler = Executors.newCachedThreadPool();
         this.executor = Executors.newFixedThreadPool(10);
         this.sandler = Executors.newFixedThreadPool(10);
-        this.connectionManager = new DbConnectionManager();
+//        this.connectionManager = new DbConnectionManager();
     }
 
     public void start() {
-        initScript();
+//        initScript();
         serverThread();
         try {
             Selector selector = Selector.open();
